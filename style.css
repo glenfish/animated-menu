@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    height: 10vh;
+    background: #5b78c7;
+    font-size: 22px;
+    position:relative;
+    display: flex;
+}
+
+.page-title {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 3%;
+    width: 50%;
+}
+
+.page-title-header {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.nav-links {
+    display: flex;
+    background: #73C2DC;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links li {
+    list-style: none;
+
+}
+
+.landing {
+    display: flex;
+    flex-direction :column;
+    height: 90vh;
+}
+
+.landing h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px;
+}
+
+.circle {
+    height: 70%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        background: cornflowerblue;
+        clip-path: circle(100px at 100% -26%);
+        -webkit-clip-path: circle(100px at 100% -26%);
+        transition: all ease-out 0.6s;
+        pointer-events: none;
+    }
+
+    .nav-links.open {
+        clip-path: circle(800px at 50% 10%);
+        -webkit-clip-path: circle(800px at 50% 10%);
+        pointer-events: all;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .nav-links li a{
+        font-size: 40px;;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 2px;
+        top: 50%;
+        transform: translate(-2px, -50%);
+        padding: 20px 15px;
+        z-index:2;
+    }
+
+    .line {
+        height: 3px;
+        width: 30px;
+        margin: 6px;
+        background-color: white;
+    }
+
+    .nav-links li:nth-child(1) {
+        transition: all 0.5s ease 0.1s;
+    }
+    .nav-links li:nth-child(2) {
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(3) {
+        transition: all 0.4s ease 0.3s;
+    }
+    .nav-links li.fade {
+        opacity: 1;
+    }
+}
