@@ -24,7 +24,7 @@ nav {
 }
 
 .page-title-header {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 200;
 }
 
@@ -116,6 +116,9 @@ ul.about-page-links {
 }
 
 @media screen and (max-width: 768px) {
+    .page-title {
+        width: 48%;
+    }
     .nav-links {
         position: fixed;
         height: 100vh;
