@@ -189,7 +189,7 @@ ul.about-page-links {
         background: mediumseagreen;
         clip-path: circle(0px at 0% -32%);
         -webkit-clip-path: circle(0px at 0% -32%);
-        transition: all ease-out 1.4s;
+        transition: all ease-out 1.2s;
         pointer-events: none;
 
         display: flex;
