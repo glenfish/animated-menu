@@ -96,10 +96,17 @@ ul.about-page-links {
 
 .about-page-links li {
     font-size: 18px;
-    text-decoration: none;
     list-style: none;
     justify-content:stretch;
     width: 100%;
+}
+
+.about-page-links li button {
+    padding: 12px;
+}
+
+.about-page-links li a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
