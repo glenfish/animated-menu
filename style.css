@@ -104,6 +104,8 @@ ul.about-page-links {
 
 .about-page-links li button {
     padding: 12px;
+    width: 120px;
+    height: 60px;
 }
 
 .about-page-links li a {
