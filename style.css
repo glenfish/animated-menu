@@ -90,8 +90,8 @@ nav {
         width: 100%;
         flex-direction: column;
         background: cornflowerblue;
-        clip-path: circle(100px at 100% -26%);
-        -webkit-clip-path: circle(100px at 100% -26%);
+        clip-path: circle(100px at 100% -32%);
+        -webkit-clip-path: circle(100px at 100% -32%);
         transition: all ease-out 0.6s;
         pointer-events: none;
     }
