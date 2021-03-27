@@ -171,6 +171,14 @@ nav {
         margin-bottom: 80px;
     }
 
+    nav {
+        height: 16vh;
+    }
+
+    .landing {
+        height: 84vh;
+    }
+
    
 
 
