@@ -64,7 +64,7 @@ nav {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .nav-links {
         position: fixed;
         height: 100vh;
@@ -88,7 +88,7 @@ nav {
     }
 
     .nav-links li a{
-        font-size: 40px;;
+        font-size: 36px;;
     }
 
     .hamburger {
