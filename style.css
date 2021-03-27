@@ -18,7 +18,7 @@ nav {
     color: white;
     align-items: center;
     margin-left: 3%;
-    width: 50%;
+    width: 30%;
 }
 
 .page-title-header {
@@ -29,7 +29,7 @@ nav {
 .nav-links {
     display: flex;
     background: #73C2DC;
-    width: 50%;
+    width: 70%;
     height: 100%;
     margin-left: auto;
     align-items: center;
@@ -64,7 +64,7 @@ nav {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
     .nav-links {
         position: fixed;
         height: 100vh;
