@@ -151,7 +151,7 @@ nav {
         background: mediumseagreen;
         clip-path: circle(100px at 100% -26%);
         -webkit-clip-path: circle(100px at 100% -26%);
-        transition: all ease-out 0.5s;
+        transition: all ease-out 0.7s;
         pointer-events: none;
 
         display: flex;
@@ -166,7 +166,9 @@ nav {
     }
 
     .about-links li a{
-        font-size: 30px;;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
    
