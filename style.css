@@ -99,7 +99,7 @@ ul.about-page-links {
     list-style: none;
     justify-content:stretch;
     width: 100%;
-    padding: 20px;
+    
 }
 
 .about-page-links li button {
@@ -110,6 +110,9 @@ ul.about-page-links {
 
 .about-page-links li a {
     text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
