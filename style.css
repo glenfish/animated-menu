@@ -99,6 +99,7 @@ ul.about-page-links {
     list-style: none;
     justify-content:stretch;
     width: 100%;
+    padding: 20px;
 }
 
 .about-page-links li button {
