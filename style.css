@@ -117,7 +117,7 @@ ul.about-page-links {
 
 @media screen and (max-width: 768px) {
     section h1 {
-        margin-bottom: 30px;
+        padding-bottom: 60px;
     }
     .page-title {
         width: 48%;
