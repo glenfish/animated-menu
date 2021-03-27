@@ -160,15 +160,15 @@ nav {
     }
 
     .about-links.open {
-        clip-path: circle(900px at 50% 10%);
-        -webkit-clip-path: circle(900px at 50% 10%);
+        clip-path: circle(850px at 50% 10%);
+        -webkit-clip-path: circle(850px at 50% 10%);
         pointer-events: all;
     }
 
     .about-links li a{
         font-size: 30px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 
    
